@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<h1>Lists of all companies</h1>
+{% for list in Company_List %}
+<h2><a href="/{{list.id}}">{{list.Company_Name}}</a></h2>
+  </body>
+</html>
